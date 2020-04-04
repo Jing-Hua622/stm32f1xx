@@ -677,7 +677,7 @@ void Edit_interface()
 
 void Show_UI()
 {
-//	 Main_Mark,
+//	 Main_Mark,   
 //	 Password_Mark,
 //	 Menu_Mark,
 //	 Edit_Mark,
@@ -714,5 +714,4 @@ void Show_UI()
 			break;
 	}
 }
-
 
