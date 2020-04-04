@@ -76,7 +76,7 @@ KEY_COMPONENTS KEY_BUF[KEY_NUM] = {
 //			break;
 //	}
 //	return key_val;
-//	
+//	 
 //}
 
 static void GET_KEY_LEVEL()
@@ -96,7 +96,7 @@ static void GET_KEY_LEVEL()
 
 void ReadKeyStatus(void)
 {
-    uint8_t i;
+    uint8_t i; 
     
     GET_KEY_LEVEL();
 	static uint16_t KEY_LONG_DOWN_DELAY = 100 ; //1S
@@ -167,7 +167,7 @@ void ReadKeyStatus(void)
                 {
                     KEY_BUF[i].KEY_EVENT = KEY_NULL;//空事件
                 }
-                break;
+                break;  
         }
     }
 }
