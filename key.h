@@ -52,5 +52,5 @@ static uint16_t KEY4_ReadPin(void);
 
 void ReadKeyStatus(void);
 
-//unsigned int key_scan();
+//unsigned int key_scan(); 
 #endif 
